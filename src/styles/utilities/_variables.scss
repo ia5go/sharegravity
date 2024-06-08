@@ -1,0 +1,63 @@
+@use "typography";
+@use "mixins" as *;
+
+$color-black: #121212;
+
+%theme {
+  &__h {
+    font: 500 1rem "Roboto", sans-serif;
+    line-height: 120%;
+    color: $color-black;
+
+    &1 {
+      @extend %theme__h;
+      font-size: 4rem;
+      font-weight: 600;
+
+      @include medium-device-down {
+        font-size: 2.5rem;
+        font-weight: 500;
+      }
+    }
+    &2 {
+      @extend %theme__h;
+      font-size: 3.5rem;
+      font-weight: 600;
+
+      @include medium-device-down {
+        font-size: 2.25rem;
+        font-weight: 500;
+      }
+    }
+    &3 {
+      @extend %theme__h;
+      font-size: 2.25rem;
+
+      @include medium-device-down {
+        font-size: 1.5rem;
+        font-weight: 400;
+      }
+    }
+    &4 {
+      @extend %theme__h;
+      font-size: 1.75rem;
+
+      @include medium-device-down {
+        font-size: 1.375rem;
+        font-weight: 400;
+      }
+    }
+    &5 {
+      @extend %theme__h;
+      font-size: 1.25rem;
+
+      @include medium-device-down {
+        font-size: 1.125rem;
+      }
+    }
+
+    &6 {
+      @extend %theme__h;
+    }
+  }
+}
