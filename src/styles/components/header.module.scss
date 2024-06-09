@@ -1,0 +1,79 @@
+@use "../utilities/mixins" as *;
+@use "../utilities/variables" as *;
+
+.header {
+  @include disFlex;
+  width: 100%;
+  overflow: hidden;
+  border: solid 1px $color-black;
+
+  &__mobile {
+    @extend %theme__cta-link;
+    border-top: none;
+    border-bottom: none;
+    border-left: none;
+
+    padding: 0.75rem;
+    gap: 0.275rem;
+
+    @include disFlex(column, space-between);
+
+    span {
+      width: 1rem;
+      height: 1px;
+      background-color: $color-black;
+      transition: with ease 0.2s, background-color ease 0.2s, rotate ease 0.3s 0.1s;
+      pointer-events: none;
+    }
+
+    @include medium-device-up {
+      display: none;
+    }
+  }
+
+  &__nav {
+    background-color: $color-white;
+    transition: translate ease 0.4s;
+
+    @include medium-device-down {
+      position: fixed;
+      width: 360px;
+      height: calc(100dvh - 36px);
+      z-index: 15;
+      padding: 1rem;
+      border: solid 1px $color-black;
+      top: 36px;
+      left: 0;
+      translate: -100% 0;
+    }
+
+    @include small-device-down {
+      width: 100%;
+    }
+
+    &__ul {
+      @include disFlex;
+      width: 100%;
+
+      @include medium-device-down {
+        align-items: stretch;
+        flex-direction: column;
+        gap: 0.75rem;
+      }
+
+      &__link {
+        @extend %theme__cta-link;
+
+        @include medium-device-up {
+          border-top: none;
+          border-bottom: none;
+          border-left: none;
+        }
+
+        @include medium-device-down {
+          width: 100%;
+        }
+      }
+    }
+  }
+}

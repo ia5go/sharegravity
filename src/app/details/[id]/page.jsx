@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { Header } from "../../components/cmp-header";
+import Header from "../../components/cmp-header";
 import { getCard, updateRating } from "../../utils/boilerplate";
 import Rating from "../../components/cmp-rating";
 

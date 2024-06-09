@@ -1,35 +1,70 @@
+@use "../styles/utilities/variables" as *;
 * {
   box-sizing: border-box;
 
   margin: 0;
   padding: 0;
 
-  // FRONTEND FIXME:
-  // ::-webkit-scrollbar {
-  //   width: 0.5em;
-  //   height: 0.5em;
-  //   background: rgba(#a3a3a3, 0.5);
-
-  //   &-thumb {
-  //     background: rgba(#a3a3a3, 0.8);
-
-  //     &:hover {
-  //       background: #2e2e2e;
-  //     }
-  //   }
-  // }
   [hidden] {
     display: none !important;
   }
+
+  ::-webkit-scrollbar {
+    width: 0.75em;
+    background: rgba($color-black, 0.2);
+    border: solid 1px $color-black;
+
+    &-thumb {
+      background: rgba($color-black, 1);
+
+      &:hover {
+        background: #2e2e2e;
+      }
+    }
+  }
 }
+
 html {
   scroll-behavior: smooth;
   &:focus-within {
     scroll-behavior: smooth;
   }
 }
+
 :target {
-  scroll-margin-top: 30px;
+  scroll-margin-top: 2.5rem;
+}
+
+/* FIXED STYLES TO CHANGE ELEMENTS WITH CLIENT COMPONENT MANIPULATION */
+header {
+  button {
+    &:hover:not(.open) {
+      background-color: $color-white;
+    }
+
+    &.open {
+      background-color: $color-black;
+
+      & > span {
+        background-color: $color-white;
+        &:nth-of-type(1) {
+          transform-origin: bottom left;
+          rotate: 45deg;
+        }
+        &:nth-of-type(3) {
+          transform-origin: top left;
+          rotate: -45deg;
+        }
+        &:nth-of-type(2) {
+          width: 0;
+        }
+      }
+    }
+  }
+
+  nav.open {
+    translate: 0;
+  }
 }
 
 body {
@@ -41,7 +76,7 @@ body {
   display: flex;
   flex-direction: column;
 
-  background: #f5f4fa;
+  background: $color-white;
 
   & > main {
     flex: 1 0 auto;

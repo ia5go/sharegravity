@@ -2,6 +2,7 @@
 @use "mixins" as *;
 
 $color-black: #121212;
+$color-white: #f5f5f7;
 
 %theme {
   &__h {
@@ -55,9 +56,37 @@ $color-black: #121212;
         font-size: 1.125rem;
       }
     }
-
     &6 {
       @extend %theme__h;
+    }
+  }
+
+  &__cta {
+    @include disFlex(row, center, center);
+    font: 500 1rem "Roboto", sans-serif;
+    line-height: 120%;
+    color: $color-black;
+    text-align: center;
+
+    border: solid 1px $color-black;
+    background-color: $color-white;
+    width: fit-content;
+    padding: 1.125rem 2.5rem;
+
+    transition: background-color ease 0.3s, color ease-out 0.3s;
+
+    &:hover {
+      background-color: $color-black;
+      color: $color-white;
+    }
+
+    @include medium-device-down {
+      font-size: 0.875rem;
+    }
+
+    &-link {
+      @extend %theme__cta;
+      text-transform: capitalize;
     }
   }
 }

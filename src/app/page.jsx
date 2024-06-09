@@ -1,5 +1,5 @@
 import styles from "../styles/pages/home.module.scss";
-import { Header } from "./components/cmp-header";
+import  Header  from "./components/cmp-header";
 import Search from "./components/cmp-search";
 import Section from "./components/cmp-section";
 import { getData, getFilteredData, getUniqueCategories } from "./utils/boilerplate";
