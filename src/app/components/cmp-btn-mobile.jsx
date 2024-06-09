@@ -9,21 +9,24 @@ export default function BtnMobile({ children, target, style }) {
     const nav = document.getElementById(target);
 
     if (nav) {
-      const removeAllOpenClasses = () => {
+      /* Treating the posible click on tha nav when in mobile, it must also close the nav.*/
+      function closeNavHandler() {
         document.querySelectorAll('.open').forEach(el => {
           el.classList.remove('open');
         });
       };
 
-      const handleNavClick = (e) => {
+      /* Handle the click that happens inside the nav. */
+      function handleNavClick (e) {
         if (nav.contains(e.target)) {
-          removeAllOpenClasses();
+          closeNavHandler();
         }
       };
 
       nav.addEventListener('click', handleNavClick);
 
       return () => {
+        /* Cleans the events in the nav to avoid memory waist. */
         nav.removeEventListener('click', handleNavClick);
       };
     }

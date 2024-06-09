@@ -1,0 +1,25 @@
+@use "../utilities/mixins" as *;
+@use "../utilities/variables" as *;
+
+.search {
+  width: 100%;
+  border-bottom: 1px solid $color-black;
+  padding: 1rem;
+
+  &__input {
+    width: 100%;
+    border: solid 1px rgba($color-black, 0.5);
+    background-color: transparent;
+    padding: 0.5rem;
+
+    transition: border-color 0.5s ease;
+
+    @extend %theme__p2;
+
+    &:is(:focus, :focus-within) {
+      border-color: $color-white;
+      border-bottom-color: $color-black;
+      color: $color-black;
+    }
+  }
+}

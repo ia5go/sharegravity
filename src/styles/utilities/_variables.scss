@@ -61,6 +61,22 @@ $color-white: #f5f5f7;
     }
   }
 
+  &__p {
+    &1 {
+      font: 500 1rem "Roboto", sans-serif;
+      text-align: left;
+      color: $color-black;
+      line-height: 140%;
+    }
+
+    &2 {
+      font: 500 0.875rem "Roboto", sans-serif;
+      text-align: left;
+      color: rgba($color-black, 0.8);
+      line-height: 120%;
+    }
+  }
+
   &__cta {
     @include disFlex(row, center, center);
     font: 500 1rem "Roboto", sans-serif;
