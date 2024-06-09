@@ -11,10 +11,6 @@ export function Header(){
           <li><Link href='/#music'>Music</Link> </li>
         </ul>
       </nav>
-
-      <form action="">
-        <input placeholder="what are you searching?" type="search" name="" id="" />
-      </form>
     </header>
   );
 }

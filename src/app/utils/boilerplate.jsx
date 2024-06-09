@@ -18,7 +18,7 @@ export async function getCard(id) {
 /* FILTERS THE CARDS BY TITLE OR CATEGORY */
 export function getFilteredData(items, search) {;
   return items.filter(item => 
-    (search && item.category === search) || 
+    (search && item.category.toLowerCase().includes(search.toLowerCase())) || 
     (search && item.title.toLowerCase().includes(search.toLowerCase()))
   );
 }
