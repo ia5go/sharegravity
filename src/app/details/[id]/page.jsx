@@ -2,6 +2,7 @@ import Image from "next/image";
 import Header from "../../components/cmp-header";
 import { getCard, updateRating } from "../../utils/boilerplate";
 import Rating from "../../components/cmp-rating";
+import style from "../../../styles/pages/details.module.scss";
 
 export default async function Details(params) {
   let card = await getCard(params.params.id);
@@ -15,13 +16,24 @@ export default async function Details(params) {
     <>
     <Header/>
 
-    <main>
-      <Image src={card.banner} width={300} height={450} alt={`Banner of ${card.title}`} loading="lazy"/>
+    <main className={style.details}>
 
-      <h1>{card.title}</h1>
-      <Rating rating={card.rating}/>
+      <div className={style.details__frame }>
 
-      <p>{card.description}</p>
+        <div className={style.details__banner}>
+          <Image src={card.banner} className={style.details__banner__image} width={300} height={450} alt={`Banner of ${card.title}`} loading="lazy"/>
+        </div>
+
+        <div className={style.details__information}>
+          <h1 className={style.details__information__title}>{card.title}</h1>
+          
+          <h2 className={style.details__information__subtitle}>{card.category}</h2>
+
+          <Rating rating={card.rating} className={style.details__information__rating}/>
+
+          <div className={style.details__information__paragraph}><p>{card.description}</p></div>
+        </div>
+      </div>
 
     </main>
     </>

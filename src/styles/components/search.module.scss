@@ -3,7 +3,8 @@
 
 .search {
   width: 100%;
-  border-bottom: 1px solid $color-black;
+  border: 1px solid $color-black;
+  border-top: none;
   padding: 1rem;
 
   @include x-large-device-up {

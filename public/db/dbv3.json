@@ -74,7 +74,7 @@
   {
     "id": 9,
     "title": "Batidão Tropical 2",
-    "description": "Lorem Ipsum",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, voluptas doloremque sapiente dolore debitis ex ducimus deserunt optio eius exercitationem laborum eaque qui, nemo temporibus ab ut consequuntur, architecto iusto atque nobis. Repellat nostrum placeat soluta fugit ea labore velit?",
     "rating": 3,
     "thumbnail": "http://localhost:3000/images/batidaotropical.jpeg",
     "banner": "http://localhost:3000/images/batidaotropical.jpeg",
