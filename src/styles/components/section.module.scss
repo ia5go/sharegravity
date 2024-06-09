@@ -7,25 +7,28 @@
   border-bottom: solid 1px $color-black;
   z-index: 0;
 
-  @include small-device-down {
+  @include large-device-down {
     flex-direction: column;
   }
 
   &__header {
     width: 30%;
-    padding: 1rem;
-    position: sticky;
-    top: 0;
+    padding: 1.5rem 1rem 1rem;
     z-index: 2;
     background-color: $color-white;
+    border-right: 1px solid $color-black;
 
-    @include small-device-down {
+    @include large-device-down {
       width: 100%;
       border-bottom: 1px solid $color-black;
       padding-top: 2rem;
+      position: sticky;
+      top: 0;
     }
 
     &__title {
+      position: sticky;
+      top: 0;
       @extend %theme__h2;
       text-transform: capitalize;
     }
@@ -37,7 +40,7 @@
     width: 70%;
     z-index: 0;
 
-    @include small-device-down {
+    @include large-device-down {
       width: 100%;
     }
   }

@@ -3,12 +3,73 @@
 @use "../utilities/variables" as *;
 
 .card {
+  @include disFlex(column, end, start);
   position: relative;
-  width: 50%;
+  width: 33%;
   height: auto;
-  aspect-ratio: 3/4;
-  position: relative;
+  aspect-ratio: 1/1;
   isolation: isolate;
+  flex: 1 0 auto;
+  border: solid 0.5px $color-black;
+
+  &::before {
+    content: "";
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(to top, $color-black, rgba($color-black, 0));
+    transition: opacity ease 0.3s;
+  }
+
+  &:hover::before {
+    opacity: 0;
+    transition-delay: 0.1s;
+  }
+
+  @include x-large-device-down {
+    width: 50%;
+  }
+
+  @include small-device-down {
+    width: 100%;
+  }
+
+  &__information {
+    content: "";
+    padding: 2rem 1.5rem 1rem;
+    width: 100%;
+    z-index: 2;
+
+    transition: opacity ease 0.3s;
+
+    :hover > & {
+      opacity: 0;
+    }
+
+    &__title {
+      @extend %theme__h4;
+      width: 100%;
+      color: $color-purple-accent;
+    }
+
+    &__category {
+      @extend %theme__h5;
+      width: 100%;
+      color: $color-white;
+      text-transform: capitalize;
+      opacity: 0;
+      height: 0;
+      transition: all ease 0.5;
+
+      & {
+        opacity: 1;
+        height: 24px;
+      }
+    }
+  }
 
   &__image {
     width: 100%;
@@ -18,9 +79,13 @@
     position: absolute;
     inset: 0;
     z-index: -1;
-  }
 
-  &__title {
-    @extend %theme__h5;
+    filter: grayscale(1);
+
+    transition: filter ease 0.3s;
+
+    :hover > & {
+      filter: grayscale(0);
+    }
   }
 }
