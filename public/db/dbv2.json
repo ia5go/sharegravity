@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "title": "Ori and the Will of the Wisps",
+    "description": "Lorem Ipsum",
+    "rating": 3,
+    "thumbnail": "http://localhost:3000/images/ori.jpg",
+    "banner": "http://localhost:3000/images/ori.jpg",
+    "category": "games"
+  },
+  {
+    "id": 2,
+    "title": "Leage of Legends",
+    "description": "Lorem Ipsum",
+    "rating": 3,
+    "thumbnail": "http://localhost:3000/images/league_of_legends.jpeg",
+    "banner": "http://localhost:3000/images/league_of_legends.jpeg",
+    "category": "games"
+  },
+  {
+    "id": 3,
+    "title": "Leage of Legends",
+    "description": "Lorem Ipsum",
+    "rating": 3,
+    "thumbnail": "http://localhost:3000/images/league_of_legends.jpeg",
+    "banner": "http://localhost:3000/images/league_of_legends.jpeg",
+    "category": "games"
+  },
+  {
+    "id": 4,
+    "title": "Leage of Legends",
+    "description": "Lorem Ipsum",
+    "rating": 3,
+    "thumbnail": "http://localhost:3000/images/league_of_legends.jpeg",
+    "banner": "http://localhost:3000/images/league_of_legends.jpeg",
+    "category": "games"
+  },
+  {
+    "id": 5,
+    "title": "Leage of Legends",
+    "description": "Lorem Ipsum",
+    "rating": 3,
+    "thumbnail": "http://localhost:3000/images/league_of_legends.jpeg",
+    "banner": "http://localhost:3000/images/league_of_legends.jpeg",
+    "category": "games"
+  },
+  {
+    "id": 6,
+    "title": "Leage of Legends",
+    "description": "Lorem Ipsum",
+    "rating": 3,
+    "thumbnail": "http://localhost:3000/images/league_of_legends.jpeg",
+    "banner": "http://localhost:3000/images/league_of_legends.jpeg",
+    "category": "games"
+  },
+  {
+    "id": 7,
+    "title": "Leage of Legends",
+    "description": "Lorem Ipsum",
+    "rating": 3,
+    "thumbnail": "http://localhost:3000/images/league_of_legends.jpeg",
+    "banner": "http://localhost:3000/images/league_of_legends.jpeg",
+    "category": "games"
+  },
+  {
+    "id": 8,
+    "title": "Leage of Legends",
+    "description": "Lorem Ipsum",
+    "rating": 3,
+    "thumbnail": "http://localhost:3000/images/league_of_legends.jpeg",
+    "banner": "http://localhost:3000/images/league_of_legends.jpeg",
+    "category": "games"
+  },
+  {
+    "id": 9,
+    "title": "Batidão Tropical 2",
+    "description": "Lorem Ipsum",
+    "rating": 3,
+    "thumbnail": "http://localhost:3000/images/batidaotropical.jpeg",
+    "banner": "http://localhost:3000/images/batidaotropical.jpeg",
+    "category": "music"
+  },
+  {
+    "id": 10,
+    "title": "Funk Generation",
+    "description": "Lorem Ipsum",
+    "rating": 3,
+    "thumbnail": "http://localhost:3000/images/funk-genaration.jpeg",
+    "banner": "http://localhost:3000/images/funk-genaration.jpeg",
+    "category": "music"
+  }
+]

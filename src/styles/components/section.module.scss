@@ -1,0 +1,44 @@
+@use "../utilities/mixins" as *;
+@use "../utilities/variables" as *;
+
+.section {
+  @include disFlex;
+  width: 100%;
+  border-bottom: solid 1px $color-black;
+  z-index: 0;
+
+  @include small-device-down {
+    flex-direction: column;
+  }
+
+  &__header {
+    width: 30%;
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    background-color: $color-white;
+
+    @include small-device-down {
+      width: 100%;
+      border-bottom: 1px solid $color-black;
+      padding-top: 2rem;
+    }
+
+    &__title {
+      @extend %theme__h2;
+      text-transform: capitalize;
+    }
+  }
+
+  &__cards {
+    @include disFlex;
+    flex-wrap: wrap;
+    width: 70%;
+    z-index: 0;
+
+    @include small-device-down {
+      width: 100%;
+    }
+  }
+}

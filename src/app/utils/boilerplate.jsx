@@ -1,6 +1,6 @@
 /* GETS ALL THE CARDS */
 export async function getData(){
-  const res = await fetch('http://localhost:3000/db/dbv1.json');
+  const res = await fetch('http://localhost:3000/db/dbv2.json');
 
   if(!res.ok){
     throw new Error(`Error fetching`);
