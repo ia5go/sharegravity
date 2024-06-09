@@ -15,7 +15,7 @@ export default function Search(props){
       }else{
       router.push(`/?search=${query}`);
     }
-  }, [query, router])
+  }, [query, router]);
 
 return(
   <form onSubmit={e=>e.preventDefault()}>
