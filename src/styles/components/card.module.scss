@@ -3,7 +3,7 @@
 @use "../utilities/variables" as *;
 
 .card {
-  @include disFlex(column, end, start);
+  @include disFlex(column, flex-end, flex-start);
   position: relative;
   width: 33%;
   height: auto;

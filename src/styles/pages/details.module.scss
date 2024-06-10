@@ -2,7 +2,7 @@
 @use "../utilities/variables" as *;
 
 .details {
-  @include disFlex(row, start);
+  @include disFlex(row, flex-start);
 
   min-height: calc(100dvh - 57px);
   width: 100%;
@@ -13,7 +13,7 @@
 
   &__frame {
     border: 1px solid $color-black;
-    @include disFlex(row, start);
+    @include disFlex(row, flex-start);
     flex-wrap: wrap;
     width: 100%;
   }
