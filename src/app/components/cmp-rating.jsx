@@ -21,7 +21,7 @@ export default function Rating(props) {
     <div className={props.className}>
     {Array.from({ length: 5 }, (_, i) => (
       <Pentagram 
-      weight={i < rating ? 'fill' : 'thin'} key={i} size={20} color='#880000' onClick={() =>setRatingHandler(i+1)} />
+      weight={i < rating ? 'fill' : 'thin'} key={i} size={20} color='#ba5db0' onClick={() =>setRatingHandler(i+1)} />
     ))}
     </div>
   );

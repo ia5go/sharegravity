@@ -7,6 +7,7 @@
   position: relative;
   width: 33%;
   height: auto;
+  max-height: calc(100dvh - 57px - 68px);
   aspect-ratio: 1/1;
   isolation: isolate;
   flex: 1 0 auto;

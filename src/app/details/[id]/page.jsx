@@ -21,7 +21,7 @@ export default async function Details(params) {
       <div className={style.details__frame }>
 
         <div className={style.details__banner}>
-          <Image src={card.banner} className={style.details__banner__image} width={300} height={450} alt={`Banner of ${card.title}`} loading="lazy"/>
+          <Image src={card.banner} className={style.details__banner__image} width={500} height={720} alt={`Banner of ${card.title}`} loading="lazy"/>
         </div>
 
         <div className={style.details__information}>
