@@ -1,0 +1,137 @@
+[
+  {
+    "id": 1,
+    "title": "Ori and the Will of the Wisps",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta.",
+    "rating": 3,
+    "thumbnail": "http://localhost:3000/images/img1.jpg",
+    "banner": "http://localhost:3000/images/img2.jpg",
+    "category": "games"
+  },
+  {
+    "id": 2,
+    "title": "League of Legends",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta.",
+    "rating": 3,
+    "thumbnail": "http://localhost:3000/images/img3.jpeg",
+    "banner": "http://localhost:3000/images/img4.jpg",
+    "category": "games"
+  },
+  {
+    "id": 3,
+    "title": "Cyberpunk 2077",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta.",
+    "rating": 3,
+    "thumbnail": "http://localhost:3000/images/img5.jpeg",
+    "banner": "http://localhost:3000/images/img6.jpg",
+    "category": "games"
+  },
+  {
+    "id": 4,
+    "title": "Batidão Tropical 2",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta.",
+    "rating": 3,
+    "thumbnail": "http://localhost:3000/images/img7.jpeg",
+    "banner": "http://localhost:3000/images/img7.jpeg",
+    "category": "music"
+  },
+  {
+    "id": 5,
+    "title": "Funk Generation",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta.",
+    "rating": 3,
+    "thumbnail": "http://localhost:3000/images/img9.jpeg",
+    "banner": "http://localhost:3000/images/img9.jpeg",
+    "category": "music"
+  },
+  {
+    "id": 6,
+    "title": "Classical Beats",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta.",
+    "rating": 3,
+    "thumbnail": "http://localhost:3000/images/img3.jpeg",
+    "banner": "http://localhost:3000/images/img4.jpg",
+    "category": "music"
+  },
+  {
+    "id": 7,
+    "title": "Artistic Inspirations",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta.",
+    "rating": 3,
+    "thumbnail": "http://localhost:3000/images/img3.jpeg",
+    "banner": "http://localhost:3000/images/img4.jpg",
+    "category": "art"
+  },
+  {
+    "id": 8,
+    "title": "Masterpieces",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta.",
+    "rating": 3,
+    "thumbnail": "http://localhost:3000/images/img3.jpeg",
+    "banner": "http://localhost:3000/images/img4.jpg",
+    "category": "art"
+  },
+  {
+    "id": 9,
+    "title": "Modern Art",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta.",
+    "rating": 3,
+    "thumbnail": "http://localhost:3000/images/img3.jpeg",
+    "banner": "http://localhost:3000/images/img4.jpg",
+    "category": "art"
+  },
+  {
+    "id": 10,
+    "title": "Cinematic Adventures",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta.",
+    "rating": 3,
+    "thumbnail": "http://localhost:3000/images/img3.jpeg",
+    "banner": "http://localhost:3000/images/img4.jpg",
+    "category": "movies"
+  },
+  {
+    "id": 11,
+    "title": "Drama Unfolded",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta.",
+    "rating": 3,
+    "thumbnail": "http://localhost:3000/images/img3.jpeg",
+    "banner": "http://localhost:3000/images/img4.jpg",
+    "category": "movies"
+  },
+  {
+    "id": 12,
+    "title": "Comedy Nights",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta.",
+    "rating": 3,
+    "thumbnail": "http://localhost:3000/images/img3.jpeg",
+    "banner": "http://localhost:3000/images/img4.jpg",
+    "category": "movies"
+  },
+  {
+    "id": 13,
+    "title": "Ori and the Will of the Wisps",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta.",
+    "rating": 3,
+    "thumbnail": "http://localhost:3000/images/img1.jpg",
+    "banner": "http://localhost:3000/images/img2.jpg",
+    "category": "games"
+  },
+  {
+    "id": 14,
+    "title": "League of Legends",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta.",
+    "rating": 3,
+    "thumbnail": "http://localhost:3000/images/img3.jpeg",
+    "banner": "http://localhost:3000/images/img4.jpg",
+    "category": "games"
+  },
+  {
+    "id": 15,
+    "title": "Cyberpunk 2077",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta.",
+    "rating": 3,
+    "thumbnail": "http://localhost:3000/images/img5.jpeg",
+    "banner": "http://localhost:3000/images/img6.jpg",
+    "category": "games"
+  }
+]
